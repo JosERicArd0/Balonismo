@@ -1,10 +1,14 @@
 public class Pessoa {
 
     String nome;
-    int CPF;
+    String RG;
+    String CPF;
     int telefone;
     int telcontato;
-    String endereco;
+    boolean termoCienciaRisco;
+    String rua;
+    String cidade;
+    String estado;
 
 
     public void pesquisarEmpresa(){
